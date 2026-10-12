@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body{
+    background-color: whitesmoke;
+    margin: 2rem  4rem;
+}
+
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-track {
+  animation: infinite-scroll 30s linear infinite;
+}
+
+.logo-track:hover {
+  animation-play-state: paused;
+}
