@@ -8,7 +8,7 @@ import Hero from "./Hero"
 import InfinteLogo from "./InfinteLogo"
 import Result from "./Result"
 import Services from "./Services";
-import Impact from "./impact"
+import Impact from "./Impact"
 import Faq from "./Faq"
 import Insights from "./Insights"
 import Cta from "./Cta";
